@@ -4,11 +4,11 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "install-server": "cd Figma BackEnd && npm install",
-      "start-server": "cd Figma BackEnd && node index.js",
-      "install-client": "cd Figma FrontEnd && npm install",
-      "build-client": "cd Figma FrontEnd && npm run build",
-      "start-client": "cd Figma FrontEnd && npm run start"
+      "install-server": "cd Figma backend && npm install",
+      "start-server": "cd Figma backend && node index.js",
+      "install-client": "cd Figma Frontend && npm install",
+      "build-client": "cd Figma Frontend && npm run build",
+      "start-client": "cd Figma Frontend && npm run start"
     },
     "keywords": [],
     "author": "",
