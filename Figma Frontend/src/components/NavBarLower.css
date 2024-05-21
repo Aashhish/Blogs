@@ -1,0 +1,148 @@
+.LowerNavBar{
+  position: relative;
+    color: #FFFFFF;
+    position: fixed;
+    /* background-color: #ffffff; */
+    background-color: #d7e4c0;
+    box-shadow: 4px 6px 13px 0px #d7e4c0;
+    width: 100%;
+    height: 130px;
+    padding-left: 0px;
+    top: 10px;
+    z-index: 1;
+}
+
+
+
+.in1{
+  position: absolute;
+  width: 161px;
+  height: 34px;
+  top: 92px;
+  left: 261px;
+  border-color: #01010100;
+  border-radius: 45px;
+  background-color: #F0F1F1;
+  color : #010101;
+
+}
+.in2{
+  position: absolute;
+  width: 161px;
+  height: 34px;
+  top: 89px;
+  left: 452px;
+  border-color: #01010100;
+  border-radius: 45px;
+  background-color: #F0F1F1;
+  color : #010101;
+
+}
+.filter{
+    position: absolute;
+    color: black;
+    width: 43px;
+    height: 17px;
+    top: 95px;
+    left: 175px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  
+
+
+  .txtbox{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    top: 91px;
+    margin-left: 1042px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #01010100;
+    border-radius: 45px;
+    background-color: #F0F1F1;
+    color : #010101;
+  }
+  
+  
+  .txtbox::placeholder {
+    color: rgb(167, 167, 167);
+  }
+
+  .picon{
+    position: relative;
+    right: 30px;
+    
+  }
+  .icon{
+    cursor: pointer;
+    position: absolute;
+    color: #010101;
+    left: 1259px;
+    top: 100px;
+    z-index: 1;
+  }
+
+  .line2{
+    position: absolute;
+    width: 51px;
+    top: 89.5px;
+    left: 210px;
+    border: 1px;
+    rotate: 90deg;
+    border: 1px solid #E6E6E6;
+    
+  }
+
+
+
+  .h1{
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    top: 70px;
+    left: 268px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color : #797979;
+  
+  }
+  .h2{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    top: 70px;
+    left: 455px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color : #797979;
+  
+  }
+  .h3{
+    position: absolute;
+    width: 44px;
+    height: 16px;
+    top: 70px;
+    left: 1045px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color : #797979;
+  
+  }
