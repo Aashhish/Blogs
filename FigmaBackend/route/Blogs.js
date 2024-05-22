@@ -1,6 +1,6 @@
 import express from "express";
 import { Blog } from "../models/Blog.js";
-import { applyMiddleWare } from "../middleWare/auth.js";
+import { applyMiddleWare } from "../middleWare/Auth.js";
 import multer from "multer";
 import moment from "moment";
 const BlogRouter = express.Router()
